@@ -18,7 +18,23 @@ const PostPreview = ({ title, excerpt, featuredImage, uri, tags: tagNodes, ...pr
       {featuredImage && featuredImage.remoteFile && (
         <Image {...featuredImage.remoteFile.childImageSharp} />
       )}
-      <Styled.h2><Link to={uri}>{title}</Link></Styled.h2>
+      <Styled.h2>
+        <Link to={uri}>{title}</Link>
+        {tags.breaking && (
+          <span sx={{
+            backgroundColor: `red`,
+            color: `white`,
+            borderRadius: 3,
+            fontFamily: `body`,
+            fontSize: 1,
+            padding: 1,
+            ml: 2,
+            textTransform: `uppercase`
+          }}>Breaking <span sx={{
+            display: [`none`, `inline-block`],
+          }}>News</span></span>
+        )}
+      </Styled.h2>
       <Styled.root dangerouslySetInnerHTML={{ __html: excerpt }} />
     </article>
   )
