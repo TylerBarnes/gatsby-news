@@ -6848,10 +6848,10 @@ gatsby-source-filesystem@^2.2.2:
     valid-url "^1.0.9"
     xstate "^4.8.0"
 
-gatsby-source-wordpress-experimental@0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/gatsby-source-wordpress-experimental/-/gatsby-source-wordpress-experimental-0.1.10.tgz#34864d6856d6980a6b9a391137eb440032ccb3cc"
-  integrity sha512-hObDbNPQb/zCRo1vB2fU50kZ1nnAN61LMgl3ESt5U9uwuCR7se1RQh8ariA5hge3wgCxaLG6/HleV81o4bHnwQ==
+gatsby-source-wordpress-experimental@0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-wordpress-experimental/-/gatsby-source-wordpress-experimental-0.2.1.tgz#5d8b7a452829ee8cffa2cad12bba3f21edbad584"
+  integrity sha512-IrccwGIqhmrSsHOAuYomejxem5JYyXyC/iHF5O5npZaziO1zRzkVQimxz0NLACG5mgn8Ig9RfxQkV/oJsuFppw==
   dependencies:
     "@babel/runtime" "^7.6.3"
     "@rematch/core" "^1.3.0"
@@ -6865,7 +6865,7 @@ gatsby-source-wordpress-experimental@0.1.10:
     dumper.js "^1.3.1"
     execall "^2.0.0"
     fast-json-stable-stringify "^2.1.0"
-    graphql-prettier "^1.0.6"
+    glob "^7.1.6"
     graphql-query-compress "^1.2.2"
     node-fetch "^1.7.3"
     p-queue "^6.3.0"
@@ -7418,13 +7418,6 @@ graphql-playground-middleware-express@^1.7.14:
   dependencies:
     graphql-playground-html "^1.6.19"
 
-graphql-prettier@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/graphql-prettier/-/graphql-prettier-1.0.6.tgz#ec7f0372876950ed41508559cd34e66128f2be4a"
-  integrity sha512-Rq2eRQgT7obypnYb+tE27Ira7BYW+YFMdgZT6azrYgVCldNrULHuYOhWZlvjxBKTAU+t/aj8zneiRBuYnj/SNA==
-  dependencies:
-    graphql "^14.1.1"
-
 graphql-query-compress@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/graphql-query-compress/-/graphql-query-compress-1.2.3.tgz#6a28c03fe56226fe26c7fe2208cca3379718f2d2"
@@ -7456,7 +7449,7 @@ graphql-type-json@^0.3.1:
   resolved "https://registry.yarnpkg.com/graphql-type-json/-/graphql-type-json-0.3.1.tgz#47fca2b1fa7adc0758d165b33580d7be7a6cf548"
   integrity sha512-1lPkUXQ2L8o+ERLzVAuc3rzc/E6pGF+6HnjihCVTK0VzR0jCuUd92FqNxoHdfILXqOn2L6b4y47TBxiPyieUVA==
 
-graphql@^14.1.1, graphql@^14.6.0:
+graphql@^14.6.0:
   version "14.6.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.6.0.tgz#57822297111e874ea12f5cd4419616930cd83e49"
   integrity sha512-VKzfvHEKybTKjQVpTFrA5yUq2S9ihcZvfJAtsDBBCuV6wauPu1xl/f9ehgVf0FcEJJs4vz6ysb/ZMkGigQZseg==
